@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="carousel-content">
+      <button class="carousel-button carousel-button--left">
+        <img src="/images/prev.jpg" alt="previous" />
+      </button>
+      <div class="carousel-container">
+        <ul class="carousel-item">
+          <li class="carousel-item-slide currentSlide">
+            <img class="carousel-images" src="/images/img1.jpg" alt="image1" />
+          </li>
+          <li class="carousel-item-slide">
+            <img class="carousel-images" src="/images/img2.jpg" alt="image2" />
+          </li>
+          <li class="carousel-item-slide">
+            <img class="carousel-images" src="/images/img3.jpg" alt="image3" />
+          </li>
+          <li class="carousel-item-slide">
+            <img class="carousel-images" src="/images/img4.jpg" alt="image4" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel-button carousel-button--right">
+        <img class="carousel-images" src="/images/next.jpg" alt="next" />
+      </button>
+
+      <div class="carousel-nav">
+        <button class="carousel-nav-position current-slide"></button>
+        <button class="carousel-nav-position"></button>
+        <button class="carousel-nav-position"></button>
+        <button class="carousel-nav-position"></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
